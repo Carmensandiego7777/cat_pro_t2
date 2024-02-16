@@ -1,0 +1,135 @@
+/* ProductTable.css */
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.product-table th:first-child,
+.product-table td:first-child {
+  text-align: center;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* ProductComponent.module.css */
+
+.container {
+  /* Your existing styles */
+}
+
+.topBar {
+  /* Your existing styles */
+}
+
+.topBarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+}
+
+.searchContainer input[type="search"] {
+  margin-right: 10px; /* Adjust the spacing between search input and search icon */
+}
+
+.redirectButton {
+  margin-left: 20px; /* Adjust the spacing between search icon and redirect button */
+}
+
+.row {
+  /* Your existing styles */
+}
+
+.col {
+  /* Your existing styles */
+}
+
+.output {
+  /* Your existing styles */
+}
+
+.productTable {
+  /* Your existing styles */
+}
+
+.pagination-container {
+  margin-top: 150px; /* Adjust the margin from the top */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  margin: 0 5px; /* Adjust the spacing between page numbers */
+}
+
+.page-link {
+  /* Your existing styles */
+}
+
+#sizze{
+  margin: 0px;
+  width:  100%;
+}
+
+.table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+.table thead th {
+  background-color: #0078d4 !important;
+  color: #fff !important;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f1f1f1 !important;
+}
+
+.table tbody tr:hover {
+  background-color: #e5f5ff !important;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f9f9f9 !important;
+}
+
+.table-striped tbody tr:nth-child(odd):hover {
+  background-color: #e5e5e5 !important;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6 !important;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px !important;
+}
