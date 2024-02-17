@@ -21,12 +21,12 @@ const db = mysql.createConnection({
   database: process.env.DB_DATABASE,
 });
 
-// Database connection
+// // Database connection
 // const db = mysql.createConnection({
-//   host: "localhost",
-//   user: "soorya",
-//   password: "1234",
-//   database: "ecommerse",
+//   host: "sql6.freesqldatabase.com",
+//   user: "sql6684568",
+//   password: "QaUnlRWwiQ",
+//   database: "sql6684568",
 // });
 
 db.connect((err) => {
