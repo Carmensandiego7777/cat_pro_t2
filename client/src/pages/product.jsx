@@ -44,7 +44,7 @@ function ProductComponent() {
 
   const fetchCategories = async () => {
     try {
-      const response = await axios.get("http://localhost:5500/api/categories");
+      const response = await axios.get("https://server-v34z.onrender.com/api/categories");
       setCategories(response.data);
     } catch (error) {
       console.error("Error fetching categories:", error);
@@ -54,7 +54,7 @@ function ProductComponent() {
   const fetchProducts = async (id) => {
     try {
       const response = await axios.get(
-        `http://localhost:5500/api/products/${id}`
+        `https://server-v34z.onrender.com/api/products/${id}`
       );
       setProducts(response.data);
       setLoading(false);
@@ -70,7 +70,7 @@ function ProductComponent() {
 
   const handleSearch = async () => {
     try {
-      const url = `http://localhost:5500/api/product/search?query=${searchQuery}`;
+      const url = `https://server-v34z.onrender.com/api/product/search?query=${searchQuery}`;
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error("Failed to fetch search results");
