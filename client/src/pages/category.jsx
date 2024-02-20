@@ -11,7 +11,8 @@ function CategoryComponent() {
 
     const fetchCategories = async () => {
         try {
-            const response = await fetch('https://server-v34z.onrender.com/api/categories');
+            //const response = await fetch('https://server-v34z.onrender.com/api/categories');
+            const response = await fetch('https://localhost:9200/api/categories');
             const data = await response.json();
             setCategories(data);
         } catch (error) {
